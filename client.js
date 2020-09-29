@@ -41,3 +41,42 @@ const employees = [
 // Ask questions when you don't.
 
 console.log( employees );
+
+// this function should contain the bonus percentage the employee is to receive.
+function bonusCalc(employee) {
+  let bonusPercent = 0;
+  let employeeNumber = employee.employeeNumber;
+  let reviewScore = employee.reviewRating;
+  let annualIncome = employee.annualSalary;
+
+  function ratincCalc(reviewScore){
+    
+  }
+  function employLengthCalc(employeeNumber){
+
+  }
+
+  function annualIncomeCalc(annualIncome){
+    
+  }
+
+  function maxMinBonusGate(bonusPercent){
+    
+  }
+  
+}
+
+// this function should be the adjusted annual compensation (base annual + bonus)
+function totalCompCalc(params) {
+  
+}
+
+// this function should be the employee's total bonus roundered to the nearest dollar
+function totalBonusCalc(params) {
+  
+}
+
+function BonusMetrics(employee){
+  this.name = employee.name
+  this.bonusPercentage = bunusCalc(employee)
+}
