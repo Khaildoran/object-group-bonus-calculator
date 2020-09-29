@@ -49,15 +49,29 @@ function bonusCalc(employee) {
   let reviewScore = employee.reviewRating;
   let annualIncome = employee.annualSalary;
 
-  function ratincCalc(reviewScore){
-    
+  function ratingCalc(reviewScore){
+    if( reviewScore <= 2 ){
+    bonusPercent = 1
+    }
+    else if ( reviewScore = 3){
+    bonusPercent = 1.04
+    }
+    else if ( reviewScore = 4){
+    bonusPercent = 1.06
+    }
+    else if ( reviewScore = 5){
+    bonusPercent = 1.10
+    }
   }
-  function employLengthCalc(employeeNumber){
-
+  function employNumberCalc(employeeNumber){
+    if(employeeNumber.length === 4 )
+    {
+    bonusPercent += .05
+    }
   }
 
   function annualIncomeCalc(annualIncome){
-    
+    if()
   }
 
   function maxMinBonusGate(bonusPercent){
